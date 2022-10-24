@@ -1,3 +1,3 @@
-### Live Perview
+### TV Bland Live Perview
 
-https://vercel.com/staystrongbg/tv-bland
+https://tv-bland-nu.vercel.app/
