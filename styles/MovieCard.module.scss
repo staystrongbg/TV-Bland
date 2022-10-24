@@ -1,0 +1,39 @@
+.showCard {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  box-shadow: 4px 4px 20px rgba($color: #000000, $alpha: 0.6);
+  position: relative;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  transition: ease-out 0.2s;
+  align-items: center;
+  &:hover {
+    transform: scale(1.1);
+  }
+  .desc {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #f1f2f3;
+    line-height: 24px;
+    .rate {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      .showRating {
+        display: none;
+      }
+      &:hover .showRating {
+        display: inline;
+      }
+    }
+    h3 {
+    }
+    p {
+      color: #bababa;
+      font-size: 14px;
+    }
+  }
+}

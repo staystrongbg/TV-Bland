@@ -1,0 +1,16 @@
+@import '_mixins.scss';
+.footer {
+  display: flex;
+  padding: 2rem 0.75rem;
+  background-color: #101010;
+  justify-content: space-around;
+  align-items: center;
+  @include mobile() {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  p:first-child {
+    font-weight: 900;
+    font-size: 60px;
+  }
+}

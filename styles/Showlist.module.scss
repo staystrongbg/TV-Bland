@@ -1,0 +1,22 @@
+@import 'mixins.scss';
+
+.listWrapper {
+  max-width: 1600px;
+  margin: 80px auto;
+  margin-top: 100px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  .title {
+    font-size: 32px;
+    color: #f1f2f3;
+    text-transform: capitalize;
+  }
+  .movieList {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    place-items: center;
+    grid-gap: 20px;
+  }
+}
